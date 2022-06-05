@@ -1,0 +1,65 @@
+html, body{
+    min-height: 100%
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5dc;
+}
+
+
+#canvas{
+    min-width: 1000px;
+    min-height: 600px;
+    background-color: #63c5da;
+    border-radius: 0.5rem;
+}
+
+.description{
+    margin-bottom: 30px;
+    stroke: #306754;
+}
+
+#legend{
+    background-color: whitesmoke;
+    border-radius: 0.5rem;
+}
+
+#graph{
+    visibility: hidden;
+    margin-left: 10px;
+    background-color: whitesmoke;
+}
+
+.county.county:hover{
+    fill: black;
+}
+
+#map_container{
+    display: inline;
+}
+
+.x_axis{
+    stroke: #306754;
+    font-size: 16px;
+}
+
+.text{
+    stroke: #306754;
+}
+
+h1{
+    color: #306754;
+}
+
+h2{
+    color: #306754;
+}
+
+.class1{
+    stroke:"lightgreen";
+}
+

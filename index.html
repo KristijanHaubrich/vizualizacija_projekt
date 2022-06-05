@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js" integrity="sha256-tHoAPGoNdhIR28YHl9DWLzeRfdwigkH7OCBXMrHXhoM=" crossorigin="anonymous"></script>
+    <title>Education in USA</title>
+</head>
+<body>
+
+    <h1 id="title" >EDUCATION IN USA</h1>
+    <div class="description">
+       <h2>Description: Percentage of residents with a bachleros degree or higher in 2010.</h2>
+    </div>
+
+    <div id="map_container">
+        
+        <svg id='canvas'>
+        </svg> 
+
+        <svg id = "graph" width = "600" height = "600"></svg>
+    </div>
+
+    <div id = "legend_container">
+        <svg id='legend' width = '300' height = '280'>
+            <text class="text" x = "130" y = "20" fill = "black">LEGEND</text>
+    
+            <g>
+                <rect x = "10" y = "40" width = "40" height = "40" fill = "lightgreen"></rect>
+                <text class="text" x = "70" y = "65"> Less than 15%</text>
+            </g>
+    
+            <g>
+                <rect x = "10" y = "90" width = "40" height = "40" fill = "limegreen"></rect>
+                <text  class="text" x = "70" y = "115"> Between 15% and 30%</text>
+            </g>
+    
+            <g>
+                <rect x = "10" y = "140" width = "40" height = "40" fill = "green"></rect>
+                <text class="text"  x = "70" y = "165">Between 30% and 45%</text>
+            </g>
+    
+            <g>
+                <rect x = "10" y = "190" width = "40" height = "40" fill = "darkgreen"></rect>
+                <text class="text" x = "70" y = "215">More than 45%</text>
+            </g>
+            
+        </svg> 
+    </div>
+    
+</body>
+    <script defer src="script.js"></script>
+</html>
