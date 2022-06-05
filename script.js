@@ -11,9 +11,9 @@ let canvas = d3.select('#canvas')
 let tooltip = d3.select('#tooltip')
 let graph = d3.select('#graph')
 
-//proba graf
+//crtanje grafa
 
- let   drawGraph = (county, percentage) => {
+ let drawGraph = (county, percentage) => {
 
     var data = [ { "name": "AVERAGE(20.1%)", "number": 20.1 },{"name": county, "number": percentage }]
 
