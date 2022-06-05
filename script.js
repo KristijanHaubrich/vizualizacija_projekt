@@ -122,7 +122,7 @@ let graph = d3.select('#graph')
 
  }
     
-
+//crtanje Mape
 let drawMap = () => {
 
     canvas.selectAll('path')
