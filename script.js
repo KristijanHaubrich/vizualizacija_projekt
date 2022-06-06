@@ -1,4 +1,6 @@
+//podaci za edukaciju
 let educationURL = "https://cdn.freecodecamp.org/testable-projects-fcc/data/choropleth_map/for_user_education.json"
+//podaci za crtanje mape
 let countyURL = "https://cdn.freecodecamp.org/testable-projects-fcc/data/choropleth_map/counties.json"
 
 let countyData
@@ -8,7 +10,6 @@ let counter = 0
 let average = 0
 
 let canvas = d3.select('#canvas')
-let tooltip = d3.select('#tooltip')
 let graph = d3.select('#graph')
 
 //crtanje grafa

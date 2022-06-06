@@ -16,6 +16,8 @@ body{
     min-height: 600px;
     background-color: #63c5da;
     border-radius: 0.5rem;
+    margin-right: 50px;
+    float: left;
 }
 
 .description{
@@ -26,11 +28,16 @@ body{
 #legend{
     background-color: whitesmoke;
     border-radius: 0.5rem;
+    float: left;
+    margin-left: 50px;
+    margin-top: 150px;
+    margin-right: 50px;
 }
 
 #graph{
     visibility: hidden;
     margin-left: 10px;
+    margin-top: 50px;
     background-color: whitesmoke;
 }
 
@@ -39,7 +46,9 @@ body{
 }
 
 #map_container{
+    margin-top: 50px;
     display: inline;
+    float: left;
 }
 
 .x_axis{
@@ -59,7 +68,4 @@ h2{
     color: #306754;
 }
 
-.class1{
-    stroke:"lightgreen";
-}
 

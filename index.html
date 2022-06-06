@@ -17,38 +17,38 @@
     </div>
 
     <div id="map_container">
+
+            <svg id='legend' width = '300' height = '300'>
+                <text class="text" x = "130" y = "20" fill = "black">LEGEND</text>
+        
+                <g>
+                    <rect x = "10" y = "40" width = "40" height = "40" fill = "lightgreen"></rect>
+                    <text class="text" x = "70" y = "65"> Less than 15%</text>
+                </g>
+        
+                <g>
+                    <rect x = "10" y = "90" width = "40" height = "40" fill = "limegreen"></rect>
+                    <text  class="text" x = "70" y = "115"> Between 15% and 30%</text>
+                </g>
+        
+                <g>
+                    <rect x = "10" y = "140" width = "40" height = "40" fill = "green"></rect>
+                    <text class="text"  x = "70" y = "165">Between 30% and 45%</text>
+                </g>
+        
+                <g>
+                    <rect x = "10" y = "190" width = "40" height = "40" fill = "darkgreen"></rect>
+                    <text class="text" x = "70" y = "215">More than 45%</text>
+                </g>
+                
+            </svg> 
+        
         
         <svg id='canvas'>
-        </svg> 
-
-        <svg id = "graph" width = "600" height = "600"></svg>
-    </div>
-
-    <div id = "legend_container">
-        <svg id='legend' width = '300' height = '280'>
-            <text class="text" x = "130" y = "20" fill = "black">LEGEND</text>
-    
-            <g>
-                <rect x = "10" y = "40" width = "40" height = "40" fill = "lightgreen"></rect>
-                <text class="text" x = "70" y = "65"> Less than 15%</text>
-            </g>
-    
-            <g>
-                <rect x = "10" y = "90" width = "40" height = "40" fill = "limegreen"></rect>
-                <text  class="text" x = "70" y = "115"> Between 15% and 30%</text>
-            </g>
-    
-            <g>
-                <rect x = "10" y = "140" width = "40" height = "40" fill = "green"></rect>
-                <text class="text"  x = "70" y = "165">Between 30% and 45%</text>
-            </g>
-    
-            <g>
-                <rect x = "10" y = "190" width = "40" height = "40" fill = "darkgreen"></rect>
-                <text class="text" x = "70" y = "215">More than 45%</text>
-            </g>
-            
-        </svg> 
+        </svg>
+        
+        <svg id = "graph" width = "550" height = "500"></svg>
+        
     </div>
     
 </body>
